@@ -127,7 +127,7 @@ class LangJsCommandTest extends TestCase
 
         $contents = file_get_contents($this->outputFilePath);
         $this->assertContains('gm8ft2hrrlq1u6m54we9udi', $contents);
-        
+
         $this->assertNotContains('vendor.nonameinc.en.messages', $contents);
         $this->assertNotContains('vendor.nonameinc.es.messages', $contents);
         $this->assertNotContains('vendor.nonameinc.ht.messages', $contents);
@@ -350,9 +350,9 @@ class LangJsCommandTest extends TestCase
      */
     protected function cleanupOutputDirectory()
     {
-        $files = FileFacade::files("{$this->testPath}/output");
-        foreach ($files as $file) {
-            FileFacade::delete($file);
-        }
+        // $files = FileFacade::files("{$this->testPath}/output");
+        // foreach ($files as $file) {
+        //     FileFacade::delete($file);
+        // }
     }
 }
