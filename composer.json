@@ -1,9 +1,9 @@
 {
-    "name": "mariuzzo/laravel-js-localization",
+    "name": "mathsmath/laravel-js-localization",
     "description": "Laravel Localization in JavaScript",
     "type": "library",
     "keywords": ["laravel", "laravel 5", "localization", "i18n", "javascript", "js", "lang"],
-    "homepage": "https://github.com/rmariuzzo/laravel-js-localization",
+    "homepage": "https://github.com/mathsmath/laravel-js-localization",
     "license": "MIT",
     "authors": [{
         "name": "Rubens Mariuzzo",
@@ -29,8 +29,8 @@
         "role": "Developer"
     }],
     "support": {
-        "issues": "https://github.com/rmariuzzo/laravel-js-localization/issues",
-        "source": "https://github.com/rmariuzzo/laravel-js-localization"
+        "issues": "https://github.com/mathsmath/laravel-js-localization/issues",
+        "source": "https://github.com/mathsmath/laravel-js-localization"
     },
     "require": {
         "php": ">=5.5.9",
